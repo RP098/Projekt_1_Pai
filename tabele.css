@@ -1,0 +1,145 @@
+@charset "UTF-8";
+body{
+
+background-color: #F2F2E6;
+font-size:20px;
+}
+
+.Zawartosc{
+width:70%;
+height:100%;
+margin-left:15% ;
+margin-right:15% ;
+color:#38381D ;
+
+}
+#Banner{
+background-color: #38381D;
+width:100%;
+height:100px;
+border-radius: 2px;
+}
+header{
+
+width:100%;
+height:10%;
+text-align: center;
+font-family: fantasy;
+font-style: italic;
+font-size:40px;
+}
+
+h1:first-letter{
+font-family:fantasy;
+font-size:70px;
+
+}
+main{
+float:left;
+width:54%;
+height:60%;
+margin-bottom:7.5%;
+margin-top:7.5%;
+padding: 2%;
+border-right-style: solid; 
+border-right-color:black; 
+text-align: justify;
+
+}
+p:first-letter{
+font-size:50px;
+}
+p{
+font-size:28px;
+}
+.telNav li{
+float:left;
+width:13em;
+float:bottom;
+font-size:10px;
+}
+.telNav{
+float:left;
+padding:2%;
+color:#F2F2E6;
+
+}
+#komp{
+float:left;
+width:37%;
+height:60%;
+margin-bottom:7.5%;
+margin-top:7.5%;
+padding:2%;
+color:#F2F2E6;
+font-size: 17px;
+}
+.telNav ul a:link, ul a:visited{
+display:block;
+width:100px;
+background-color:#38381D ;
+padding:2px;
+color:#F2F2E6;
+border:5px outset #F2F2E6;
+white-space:nowrap;
+
+}
+
+.telNav ul a:hover{
+
+
+border:5px outset #B7B773;
+}
+
+
+
+#komp ul a:link, ul a:visited{
+display:block;
+width:220px;
+background-color:#38381D ;
+padding:2px;
+color:#F2F2E6;
+border:5px outset #F2F2E6;
+white-space:nowrap;
+
+}
+
+#komp ul a:hover{
+color:#38381D;
+background-color:#F2F2E6 ;
+font-size: 24px;
+width:300px;
+border:5px outset #B7B773;
+}
+footer{
+width:100%;
+height:5%;
+clear:both;
+background-color:#38381D ;
+border-radius: 2px;
+color:#F2F2E6 ;
+text-align: center;
+}
+
+table tr td{
+padding:2px;
+font-size:23px;
+
+text-align: center;
+}
+td{
+width:150px;
+height:50px;
+}
+
+@media screen and (min-width: 1400px){
+.telNav{display:none;}
+}
+@media screen and (min-width: 280px) and (max-width:1400px){
+#komp{display:none;}
+main{border-right:none;width:98%; height:50%;}
+
+}
+
+
+
